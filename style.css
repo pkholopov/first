@@ -8,11 +8,12 @@ body{
     color:white;
     background-color: black;
     background-image: url(bg.jpg);
+    background-attachment: fixed;
 }
 
 /*header's styles begin*/
 header{
-    background: linear-gradient(#04549D, #02315F);
+    background: linear-gradient(90deg,#04549D, #02315F);
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 20px;
@@ -41,18 +42,51 @@ header a:hover{
 /*header's styles end*/
 
 .container{
-    width: 60%;
-    height: 100vh;
     color: #02315F;
     background-color: rgba(255, 255, 255, 0.5);
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
+    width: 70%;
+    height: 100%;
 }
 .container h2{
     padding: 20px;
 }
+.content_wrapper{
+    width: 90%;
+    background-color: #04549D;
+    border: 5px solid transparent;
+    border-radius: 5px;
+}
+.content_table{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+}
+.content_cell{
+    border-radius: 3px;
+    padding: 3px;
+    background-color: #FFFFFF;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+.cell_image{
+    border-radius: 3px;
+    width: 150px;
+    height: 150px;
+}
+.cell_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cell_info{
+    padding: 0 5px;
+}
+
+/*media queries*/
  @media screen and (max-width:750px) {
      .container{
          width: 100%;
@@ -60,5 +94,8 @@ header a:hover{
      header{
          grid-template-columns: 1fr;
          grid-template-rows: 1fr 1fr;
+     }
+     .content_table{
+         grid-template-columns: 1fr;
      }
  }
