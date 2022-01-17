@@ -71,11 +71,13 @@ header a:hover{
     background-color: #FFFFFF;
     display: grid;
     grid-template-columns: 150px 1fr;
+    align-items: start;
 }
 .cell_image{
     border-radius: 3px;
     width: 150px;
     height: 150px;
+    align-self:center;
 }
 .cell_image img {
     width: 100%;
