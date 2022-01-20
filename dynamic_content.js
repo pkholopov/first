@@ -61,7 +61,7 @@ const solarSystem = [
     }
 ]
 const contentTable = document.querySelector('.content_table');
-for (let i = 0; i < solarSysterm.length; i++) {
+for (let i = 0; i < solarSystem.length; i++) {
     const template = `<div class="content_cell">
                         <div class="cell_image">
                             <img src="${solarSystem[i].image}" />
