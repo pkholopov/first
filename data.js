@@ -1,10 +1,10 @@
-const noImage = "no_image.jpg";
+const noImage = "images/no_image.jpg";
 
 const solarSystem = [
     {
         type:'planet',
         name:'Меркурий',
-        image:'https://upload.wikimedia.org/wikipedia/commons/d/d9/Mercury_in_color_-_Prockter07-edit1.jpg',
+        image:'',
         smAxis:'57909227',
         aRadius:'2439.7',
         mass:{
