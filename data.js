@@ -1,14 +1,14 @@
-export const noImage = "no_image.jpg";
+const noImage = "no_image.jpg";
 
-export const solarSystem = [
+const solarSystem = [
     {
         type:'planet',
         name:'Меркурий',
         image:'https://upload.wikimedia.org/wikipedia/commons/d/d9/Mercury_in_color_-_Prockter07-edit1.jpg',
         smAxis:'57909227',
-        aRadius:'2439,7',
+        aRadius:'2439.7',
         mass:{
-            wholePart:'3,33022',
+            wholePart:'3.33022',
             degree:'23'
         },
         temp:'от -190 до +430'
@@ -18,9 +18,9 @@ export const solarSystem = [
         name:'Венера',
         image:'https://upload.wikimedia.org/wikipedia/commons/f/ff/PIA23791-Venus-RealAndEnhancedContrastViews-20200608_%28cropped2%29.jpg',
         smAxis:'108208930',
-        aRadius:'6051,8',
+        aRadius:'6051.8',
         mass:{
-            wholePart:'4,8675',
+            wholePart:'4.8675',
             degree:'24'
         },
         temp:'+464'
@@ -32,7 +32,7 @@ export const solarSystem = [
         smAxis:'149598261',
         aRadius:'6371',
         mass:{
-            wholePart:'5,9726',
+            wholePart:'5.9726',
             degree:'24'
         },
         temp:'от -89,2 до +56,7'
@@ -42,9 +42,9 @@ export const solarSystem = [
         name:'Марс',
         image:'https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg',
         smAxis:'227943820',
-        aRadius:'3389,5',
+        aRadius:'3389.5',
         mass:{
-            wholePart:'6,4171',
+            wholePart:'6.4171',
             degree:'23'
         },
         temp:'от -153 до +35'
@@ -56,7 +56,7 @@ export const solarSystem = [
         smAxis:'778547200',
         aRadius:'69911',
         mass:{
-            wholePart:'1,8986',
+            wholePart:'1.8986',
             degree:'27'
         },
         temp:'-145'
@@ -68,7 +68,7 @@ export const solarSystem = [
         smAxis:'1429394069',
         aRadius:'58232',
         mass:{
-            wholePart:'5,6846',
+            wholePart:'5.6846',
             degree:'26'
         },
         temp:'-140'
@@ -80,7 +80,7 @@ export const solarSystem = [
         smAxis:'2876679082',
         aRadius:'25367',
         mass:{
-            wholePart:'8,6813',
+            wholePart:'8.6813',
             degree:'25'
         },
         temp:'-197'
@@ -92,7 +92,7 @@ export const solarSystem = [
         smAxis:'4503443661',
         aRadius:'24622',
         mass:{
-            wholePart:'1,0243',
+            wholePart:'1.0243',
             degree:'26'
         },
         temp:'-201'
