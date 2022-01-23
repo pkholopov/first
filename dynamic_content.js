@@ -1,4 +1,4 @@
-import {solarSystem, noImage} from './data';
+import {solarSystem, noImage} from './data.js';
 
 const contentTable = document.querySelector('.content_table');
 for (let i = 0; i < solarSystem.length; i++) {
