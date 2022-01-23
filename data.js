@@ -1,6 +1,6 @@
-const noImage = "images/no_image.jpg";
+export const noImage = "images/no_image.jpg";
 
-const solarSystem = [
+export const solarSystem = [
     {
         type:'planet',
         name:'Меркурий',
