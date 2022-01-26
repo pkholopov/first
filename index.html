@@ -1,45 +1,41 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="images/favicon.ico" />
     <title>Solar system</title>
     <link rel="stylesheet" href="css/style.css" />
     <script defer src="dynamic_content.js" type="module"></script>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div>
-            <h1>Объекты Солнечной системы</h1>
-        </div>
-        <div class="header_links">
-            <a href="about.html">О странице</a>
-            <a href="author.html">Автор</a>
-        </div>
+      <div>
+        <h1>Объекты Солнечной системы</h1>
+      </div>
+      <div class="header_links">
+        <a href="about.html">О странице</a>
+        <a href="author.html">Автор</a>
+      </div>
     </header>
     <div class="container">
-        <h2>Планеты нашей системы</h2>
-        <div class="pre_content_nav">
-            <select class="filter"> 
-                <option value = "planet">Планеты</option>
-                <option value = "dwarfPlanet">Карликовые планеты</option>
-            </select>
-            <select class="sorter"> 
-                <option value = "sortByDistance">Сортировать по расстоянию</option>
-                <option value = "sortByRadius">Сортировать по радиусу</option>
-                <option value = "sortByMass">Сортировать по массе</option>
-            </select>
-        </div>
-        <div class="content_wrapper">
-            <div class="content_table">
-            
-            </div>
-        </div>
-        <footer>
-            &copy;Ir0n 2022
-        </footer>
+      <h2>Планеты нашей системы</h2>
+      <div class="pre_content_nav">
+        <select class="filter">
+          <option value="planet">Планеты</option>
+          <option value="dwarfPlanet">Карликовые планеты</option>
+        </select>
+        <select class="sorter">
+          <option value="sortByDistance">Сортировать по расстоянию</option>
+          <option value="sortByRadius">Сортировать по радиусу</option>
+          <option value="sortByMass">Сортировать по массе</option>
+        </select>
+      </div>
+      <div class="content_wrapper">
+        <div class="content_table"></div>
+      </div>
+      <footer>&copy;Ir0n 2022</footer>
     </div>
-</body>
+  </body>
 </html>

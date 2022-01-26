@@ -1,6 +1,3 @@
-@import url("reset.css");
-
-
 /*global variables-----------*/
 :root{
 --primary-color: #04549D;
@@ -82,9 +79,9 @@ header a:hover{
     100% {opacity: 1;}
     }
 
-/* .content_table:last-child {
-    animation: fadeIn 0.5s linear;
-} */
+.content_cell:last-child {
+    animation: fadeIn 0.3s linear;
+}
 
 .content_cell{
     border-radius: 3px;

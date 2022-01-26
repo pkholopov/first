@@ -18,9 +18,6 @@ function bodyType(type = 'planet'){
     return el=>el.type === type;
 }
 
-const filterSelect = document.querySelector('.filter').addEventListener('change', (e)=>console.log(e.target.value));
-const sorterSelect = document.querySelector('.sorter');
-
 function contentTableFiller(bodyType,sortType) {
     contentTable.innerHTML = '';
     let dataArray = solarSystem.filter(bodyType).sort(sortType);
@@ -42,5 +39,8 @@ function contentTableFiller(bodyType,sortType) {
     }
 
 }
+
+let filterSelect = document.querySelector('.filter').addEventListener('change', (e)=>(contentTableFiller(bodyType(e.target.value), sorterSelect)));
+let sorterSelect = document.querySelector('.sorter').addEventListener('change', (e)=>(contentTableFiller(bodyType(filterSelect), e.target.value)));
 
 window.onload = contentTableFiller(bodyType('planet'),sortByDistance);
