@@ -8,7 +8,6 @@
     <title>Solar system</title>
     <link rel="stylesheet" href="css/style.css" />
     <script defer src="dynamic_content.js" type="module"></script>
-    <!-- <script src="data.js"></script> -->
 </head>
 <body>
     <header>
@@ -23,7 +22,15 @@
     <div class="container">
         <h2>Планеты нашей системы</h2>
         <div class="pre_content_nav">
-            
+            <select class="filter"> 
+                <option value = "planet">Планеты</option>
+                <option value = "dwarfPlanet">Карликовые планеты</option>
+            </select>
+            <select class="sorter"> 
+                <option value = "sortByDistance">Сортировать по расстоянию</option>
+                <option value = "sortByRadius">Сортировать по радиусу</option>
+                <option value = "sortByMass">Сортировать по массе</option>
+            </select>
         </div>
         <div class="content_wrapper">
             <div class="content_table">

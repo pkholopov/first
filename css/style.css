@@ -76,13 +76,22 @@ header a:hover{
     grid-template-columns: 1fr 1fr;
     grid-gap: 5px;
 }
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+    }
+
+/* .content_table:last-child {
+    animation: fadeIn 0.5s linear;
+} */
+
 .content_cell{
     border-radius: 3px;
     padding: 3px;
     background-color: #FFFFFF;
     display: grid;
     grid-template-columns: 150px 1fr;
-    align-items: start;
 }
 .cell_image{
     border-radius: 3px;
